@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+.home div {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+    font-size: 64px;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+    font-family: "Style Script", cursive;
+}
+@keyframes myfirst {
+    0% {
+        left: 0px;
+        top: 50px;
+    }
+    25% {
+        left: 500px;
+        top: 50px;
+    }
+    50% {
+        left: 500px;
+        top: 300px;
+    }
+    75% {
+        left: 0px;
+        top: 300px;
+    }
+    100% {
+        left: 0px;
+        top: 5px;
+    }
+}
